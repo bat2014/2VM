@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
  
     # Set provider related settings 
    test1.vm.provider :virtualbox do | vb | 
-   vb.name="test 1"
+   vb.name="test1"
     
     end
    end
